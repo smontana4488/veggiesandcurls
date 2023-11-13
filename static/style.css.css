@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Page background color */
+body {
+    background-color: #000; /* Black */
+    color: #fff; /* White text */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333; /* Dark gray */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White */
+    font-weight: bold;
+}
+
+/* Main content container */
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #000; /* Black text */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark gray */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #00A654; /* Veggie green */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF66B2; /* Pink/purple on hover */
+}

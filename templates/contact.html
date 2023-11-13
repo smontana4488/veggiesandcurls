@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Veggies and Curls</title>
+</head>
+<body>
+    <header>
+     {% include 'nav.html' %}
+        <h1>Contact Us</h1>
+    </header>
+    <section>
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you! Whether you have questions, suggestions, or feedback, please feel free to contact us. Your thoughts and inquiries are important to us, and we're here to assist you.</p>
+    </section>
+    <section>
+        <h2>Contact Information</h2>
+        <p>You can reach us through the following channels:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@veggiesandcurls.com">info@veggiesandcurls.com</a></li>
+            <li>Phone: +1 (123) 456-7890</li>
+            <li>Address: 123 Greenway Avenue, Vegantown, VC 12345</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Contact Form</h2>
+        <p>If you prefer, you can also use the contact form below to send us a message. We will respond to your inquiry as soon as possible.</p>
+        <form action="/contact" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
